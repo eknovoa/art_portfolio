@@ -2,7 +2,8 @@
 
 ## This was a project to get practice working with HTML and CSS and where I could host my artwork.
 
-https://github.com/eknovoa/art_portfolio/blob/d1e4380df557e533a2a4736e483968316d87a876/artportfolio-pic.png
+![Screenshot 2025-01-31 at 11 13 15 PM](https://github.com/user-attachments/assets/b1fa8b2c-9ab0-4e11-8cdd-26e49f6b89ba)
+
 
 ### Technology Used:
 HTML, CSS, Visual Studio Code, Git, Terminal
