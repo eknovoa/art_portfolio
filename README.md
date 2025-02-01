@@ -1,7 +1,9 @@
 # My Art Website
 
 ## This was a project to get practice working with HTML and CSS and where I could host my artwork.
----
+
+https://github.com/eknovoa/art_portfolio/blob/d1e4380df557e533a2a4736e483968316d87a876/artportfolio-pic.png
+
 ### Technology Used:
 HTML, CSS, Visual Studio Code, Git, Terminal
 
