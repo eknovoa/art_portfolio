@@ -1,19 +1,19 @@
-#My Art Website
+# My Art Website
 
-##This was a project to get practice working with HTML and CSS and where I could host my artwork.
+## This was a project to get practice working with HTML and CSS and where I could host my artwork.
 ---
-###Technology Used:
+### Technology Used:
 HTML, CSS, Visual Studio Code, Git, Terminal
 
 
-###Challenges:
+### Challenges:
 1. My initial challege was having the navigation menu on the left side of the webpage in a fixed position.
 
-###What I loved:
+### What I loved:
 1. I love the colors of this design and how fun the page is.
 2. I think this is a fun way for artists and illustrators to display their work.
 
-###Future Ideas:
+### Future Ideas:
 1. I would like the artwork to all be the exact same height as I think that would improve the design.
 
 ---
