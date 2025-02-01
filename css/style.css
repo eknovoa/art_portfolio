@@ -1,0 +1,225 @@
+/* Page Styling */
+html {
+  background-color: #F0EBE3;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+  background-color: #F0EBE3;
+}
+
+/* Header Styling */
+
+.brand-container {
+  background-color: #F0EBE3;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 45%;
+  /* position: fixed; */
+}
+
+.brand-img {
+  display: flex;
+  justify-content: center;
+  background-color: #F0EBE3;
+  width: 100%;
+  z-index: 1;
+}
+
+.brand-img img {
+  text-align: center;
+  width: 300px;
+  height: auto;
+}
+
+/* Navbar Styling */
+
+nav {
+  position: relative;
+  top: 100px;
+  
+}
+
+nav ul {
+  padding: 5px 20px;
+  list-style: none;
+  height: auto;
+  position: fixed;
+  left: 0%;
+  margin-left: -3px;
+  
+}
+
+nav ul li {
+  padding: 5px 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+nav ul li a:hover {
+  opacity: 0.5;
+}
+
+/* Main Section Styling */
+
+main {
+  background-color: #F0EBE3;
+}
+
+
+/* Doodles Section Styling */
+
+.container {
+  text-align: center;
+}
+
+.doodles-section {
+  display: flexbox;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  left: 5%;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.doodles-section img {
+  padding: 5px 5px;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* Main Page Styling */
+
+.intro-text {
+  display: flex;
+  justify-content: center;
+  margin: 0px 100px;
+  position: relative;
+  top: 85px;
+  font-size: 20px;
+}
+
+.intro-image {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.intro-image img {
+  height: 350px;
+  width: auto;
+}
+
+/* Contact Form Styling */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 75px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px 0px;
+}
+
+form input, form label, textarea{
+  display: block;
+  text-align: center;
+  font-size: 12;
+  line-height: 12 * 2;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: #7e8278;
+}
+textarea:focus { 
+  outline: none !important;
+  border-color: #7e8278;
+}
+
+.message {
+  max-lines: 10
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+.submit-button {
+  margin: 7.5px 0px;
+  padding: 5px 10px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #7e8278;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  opacity: 0.75;
+}
+
+
+.thankyou-text {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 125px;
+  font-size: 30px;
+  margin: 0 100px;
+}
+
+
+/* Responsive Styling */
+
+
+@media screen and (max-width: 600px) {
+  .intro-text p {
+    margin: 0 50px;
+  }
+  .intro-image img {
+    height: 250px;
+    width: auto;
+  }
+
+  .doodles-section img {
+    width: 250px;
+    height: auto;
+  }
+
+  .thankyou-text {
+    font-size: 14px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+}
