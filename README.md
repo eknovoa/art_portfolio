@@ -24,5 +24,5 @@ HTML, CSS, Visual Studio Code, Git, Terminal
 2. I think the Contact page could use more work, especially after sending the message and letting the user know the message was sent.
 
 ---
-This website can be found [here](https://eknovoa.github.io/erinnovoa-designs/doodles.html) and my [developer portfolio](https://erin-novoa-portfolio.w3spaces.com/).
+This website can be found [here](https://eknovoa.github.io/art_portfolio/) and my [developer portfolio](https://erin-novoa-portfolio.w3spaces.com/).
 
