@@ -1,0 +1,20 @@
+.doodles-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.doodles-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0px 5px;
+}
+
+.column-img {
+  padding: 5px 0px;
+}
